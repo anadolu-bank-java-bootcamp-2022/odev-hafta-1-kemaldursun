@@ -11,9 +11,9 @@ Sınıfların, nesnelerin, metotların vb. ayrıştırılması ile daha sağlık
 
 Decomposition Uygulama Teknikleri
 
-Decomposition, genellikle <p><ins>anahatlarını çıkarma(outlining)</ins></p> olarak bilinen bir yazma tekniği olarak öğretilir. Yazılım geliştiriciler tarafından kullanılan bu tasarım tekniğine yukarıdan aşağıya tasarım denir. Üst düzeydeki tasarım, problemin birkaç talimattan oluşan bir algoritmaya ayrıştırılması, dönüştürülmesidir. 
+Decomposition, genellikle <ins>anahatlarını çıkarma(outlining)</ins> olarak bilinen bir yazma tekniği olarak öğretilir. Yazılım geliştiriciler tarafından kullanılan bu tasarım tekniğine yukarıdan aşağıya tasarım denir. Üst düzeydeki tasarım, problemin birkaç talimattan oluşan bir algoritmaya ayrıştırılması, dönüştürülmesidir. 
 
-<p><ins>Ardışık prototipleme</ins></p> ile tasarım ise, aşamalı olarak nihai bir çalışma programına yol açan bir dizi bireysel prototipten oluşur. Çoklu görev olarak da bilinen birden fazla yazılım parçasının aynı anda yürütülmesi fikri, yazılımın ayrıştırılmasını gerektirir.
+</ins>Ardışık prototipleme</ins> ile tasarım ise, aşamalı olarak nihai bir çalışma programına yol açan bir dizi bireysel prototipten oluşur. Çoklu görev olarak da bilinen birden fazla yazılım parçasının aynı anda yürütülmesi fikri, yazılımın ayrıştırılmasını gerektirir.
 
 Ancak özü, bir uygulamanın mimarisinin, onun parçalara (öğeler) ve bu parçalar arasındaki ilişkilere (ilişkilere) ayrıştırılmasıdır. Ayrışma birkaç nedenden dolayı önemlidir: İş ve bilgi paylaşımını kolaylaştırır. Muhtemelen uzmanlık bilgisine sahip birden fazla kişinin (veya birden çok ekibin) bir uygulama üzerinde birlikte verimli bir şekilde çalışmasını sağlar. Yazılım öğelerinin nasıl etkileşime girdiğini tanımlar. Uygulamanın özelliklerini belirleyen, parçalara ayrıştırma ve bu parçalar arasındaki ilişkilerdir.
 
