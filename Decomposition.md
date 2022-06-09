@@ -24,6 +24,6 @@ Süreç görünümü—Çalışma zamanındaki bileşenlerdir. Her öğe bir sü
 Dağıtım—Süreçlerin makinelerle nasıl eşleştirildiği ile ilgilenir. Bu görünümdeki öğeler (fiziksel veya sanal) makinelerden ve süreçlerden oluşur. Makineler arasındaki ilişkiler ağ oluşturmayı temsil eder. Bu görünüm aynı zamanda süreçler ve makineler arasındaki ilişkiyi de açıklar.
 Senaryolar: Bir mimarinin tanımı, dört artı bir yani beşinci bir görünüm haline gelen küçük bir dizi kullanım senaryosu veya senaryosu kullanılarak gösterilmektedir. Senaryolar, nesneler ve süreçler arasındaki etkileşim dizilerini tanımlar. Mimari öğeleri tanımlamak ve mimari tasarımı örneklemek ve doğrulamak için kullanılırlar. Ayrıca bir mimari prototipin testleri için bir başlangıç noktası görevi görürler. Bu görünüm, kullanım durumu görünümü olarak da bilinir.
 
-Kaynaklar:
+Kaynaklar:  
 Computationalthinking for the modern problem solver, Chapman & Hall Book, David D. Riley, Kenny A. Hunt  
 Microservices Patterns, Manning, Chris Richardson
