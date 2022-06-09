@@ -1,13 +1,23 @@
-Decomposition
+# Decomposition
+
 Decomposition tekniklerine genellikle böl ve yönet(divide and conquer) stratejileri denir. Buradaki ana fikir, tek bir problemi, onu oluşturan alt problemlere ayırarak(bölerek) yaklaşmak ve sonra her bir alt problemi ayrı ayrı çözmektir. Konuya göre bu süreç defalarca kez tekrarlanabilir.
+
 Alt problemler yeni ve biricik bireysel problemler olarak da düşünülebilir ve strateji onları bölmek ve fethetmek(çözümlemek) için tekrarlanabilir.
+
 Sorunu, senaryoyu ya da konuyu organize etmeyi sağlar, bunların ana hatları da bu sayede oluşturulmuş olur. 
+
 Böl ve yönet stratejileri eski zamanlardan, en eski askeri stratejilerden beri kullanılmakta olup hem konuya hakimiyeti artırır hem de detayların ayrıştırılmasını sağlar. Aynı zamanda yazılım açısından algoritmaların daha sağlıklı geliştirilmesine olanak tanır.
+
 Sınıfların, nesnelerin, metotların vb. ayrıştırılması ile daha sağlıklı kod yazılmasına ve kendisine yakın duran Single Responsibility(Tek Sorumluluk) prensibi gibi diğer patternlerle(örüntülerle) uyum içinde çalışılmasına kapı aralamış olur.
+
 Decomposition Uygulama Teknikleri
+
 Decomposition, genellikle anahatlarını çıkarma(outlining) olarak bilinen bir yazma tekniği olarak öğretilir. Yazılım geliştiriciler tarafından kullanılan bu tasarım tekniğine yukarıdan aşağıya tasarım denir. Üst düzeydeki tasarım, problemin birkaç talimattan oluşan bir algoritmaya ayrıştırılması, dönüştürülmesidir. 
+
 Ardışık prototipleme ile tasarım ise, aşamalı olarak nihai bir çalışma programına yol açan bir dizi bireysel prototipten oluşur. Çoklu görev olarak da bilinen birden fazla yazılım parçasının aynı anda yürütülmesi fikri, yazılımın ayrıştırılmasını gerektirir.
+
 Ancak özü, bir uygulamanın mimarisinin, onun parçalara (öğeler) ve bu parçalar arasındaki ilişkilere (ilişkilere) ayrıştırılmasıdır. Ayrışma birkaç nedenden dolayı önemlidir: İş ve bilgi paylaşımını kolaylaştırır. Muhtemelen uzmanlık bilgisine sahip birden fazla kişinin (veya birden çok ekibin) bir uygulama üzerinde birlikte verimli bir şekilde çalışmasını sağlar. Yazılım öğelerinin nasıl etkileşime girdiğini tanımlar. Uygulamanın özelliklerini belirleyen, parçalara ayrıştırma ve bu parçalar arasındaki ilişkilerdir.
+
 4+1 Mimari görünüm modeli(architectural view model) ile de uygulanabilir. Bu modelin ana kalemleri alttaki gibidir.
 Mantıksal görünüm—Geliştiriciler tarafından oluşturulan yazılım öğeleridir. Nesne yönelimli dillerde bu öğeler sınıflar ve paketlerdir. Aralarındaki ilişkiler; kalıtım, dernekler ve bağımlılar dahil olmak üzere sınıflar ve paketler arasındaki ilişkilerdir.
 Uygulama görünümü—Yapı sisteminin çıktısıdır. Bu görünüm, paketlenmiş kodu temsil eden modüllerden ve bir veya daha fazla modülden oluşan yürütülebilir veya konuşlandırılabilir birimler olan bileşenlerden oluşur. Örneğin Java'da bir modül bir JAR dosyasıdır ve bir bileşen tipik olarak bir WAR dosyası veya yürütülebilir bir JAR dosyasıdır. Aralarındaki ilişkiler, modüller arasındaki bağımlılık ilişkilerini ve bileşenler ve modüller arasındaki kompozisyon ilişkilerini içerir.
