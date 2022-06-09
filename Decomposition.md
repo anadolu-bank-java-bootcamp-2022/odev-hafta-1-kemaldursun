@@ -17,7 +17,7 @@ Decomposition, genellikle <ins>anahatlarını çıkarma(outlining)</ins> olarak 
 
 Ancak özü, bir uygulamanın mimarisinin, onun parçalara (öğeler) ve bu parçalar arasındaki ilişkilere (ilişkilere) ayrıştırılmasıdır. Ayrışma birkaç nedenden dolayı önemlidir: İş ve bilgi paylaşımını kolaylaştırır. Muhtemelen uzmanlık bilgisine sahip birden fazla kişinin (veya birden çok ekibin) bir uygulama üzerinde birlikte verimli bir şekilde çalışmasını sağlar. Yazılım öğelerinin nasıl etkileşime girdiğini tanımlar. Uygulamanın özelliklerini belirleyen, parçalara ayrıştırma ve bu parçalar arasındaki ilişkilerdir.
 
-<ins>4+1 Mimari görünüm modeli(architectural view model)</ins> ile de uygulanabilir. Bu modelin ana kalemleri alttaki gibidir.  
+<ins>4+1 Mimari görünüm modeli(architectural view model</ins> ile de uygulanabilir. Bu modelin ana kalemleri alttaki gibidir.  
 Mantıksal görünüm—Geliştiriciler tarafından oluşturulan yazılım öğeleridir. Nesne yönelimli dillerde bu öğeler sınıflar ve paketlerdir. Aralarındaki ilişkiler; kalıtım, dernekler ve bağımlılar dahil olmak üzere sınıflar ve paketler arasındaki ilişkilerdir.
 Uygulama görünümü—Yapı sisteminin çıktısıdır. Bu görünüm, paketlenmiş kodu temsil eden modüllerden ve bir veya daha fazla modülden oluşan yürütülebilir veya konuşlandırılabilir birimler olan bileşenlerden oluşur. Örneğin Java'da bir modül bir JAR dosyasıdır ve bir bileşen tipik olarak bir WAR dosyası veya yürütülebilir bir JAR dosyasıdır. Aralarındaki ilişkiler, modüller arasındaki bağımlılık ilişkilerini ve bileşenler ve modüller arasındaki kompozisyon ilişkilerini içerir.
 Süreç görünümü—Çalışma zamanındaki bileşenlerdir. Her öğe bir süreçtir ve süreçler arasındaki ilişkiler süreçler arası iletişimi temsil eder.
