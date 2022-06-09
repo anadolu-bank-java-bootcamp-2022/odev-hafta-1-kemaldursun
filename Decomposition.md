@@ -17,13 +17,15 @@ Decomposition, genellikle <ins>anahatlarını çıkarma(outlining)</ins> olarak 
 
 Ancak özü, bir uygulamanın mimarisinin, onun parçalara (öğeler) ve bu parçalar arasındaki ilişkilere (ilişkilere) ayrıştırılmasıdır. Ayrışma birkaç nedenden dolayı önemlidir: İş ve bilgi paylaşımını kolaylaştırır. Muhtemelen uzmanlık bilgisine sahip birden fazla kişinin (veya birden çok ekibin) bir uygulama üzerinde birlikte verimli bir şekilde çalışmasını sağlar. Yazılım öğelerinin nasıl etkileşime girdiğini tanımlar. Uygulamanın özelliklerini belirleyen, parçalara ayrıştırma ve bu parçalar arasındaki ilişkilerdir.
 
-<p><ins>4+1 Mimari görünüm modeli(architectural view model)</ins></p> ile de uygulanabilir. Bu modelin ana kalemleri alttaki gibidir.  
+<ins>4+1 Mimari görünüm modeli(architectural view model)</ins> ile de uygulanabilir. Bu modelin ana kalemleri alttaki gibidir.  
 Mantıksal görünüm—Geliştiriciler tarafından oluşturulan yazılım öğeleridir. Nesne yönelimli dillerde bu öğeler sınıflar ve paketlerdir. Aralarındaki ilişkiler; kalıtım, dernekler ve bağımlılar dahil olmak üzere sınıflar ve paketler arasındaki ilişkilerdir.
 Uygulama görünümü—Yapı sisteminin çıktısıdır. Bu görünüm, paketlenmiş kodu temsil eden modüllerden ve bir veya daha fazla modülden oluşan yürütülebilir veya konuşlandırılabilir birimler olan bileşenlerden oluşur. Örneğin Java'da bir modül bir JAR dosyasıdır ve bir bileşen tipik olarak bir WAR dosyası veya yürütülebilir bir JAR dosyasıdır. Aralarındaki ilişkiler, modüller arasındaki bağımlılık ilişkilerini ve bileşenler ve modüller arasındaki kompozisyon ilişkilerini içerir.
 Süreç görünümü—Çalışma zamanındaki bileşenlerdir. Her öğe bir süreçtir ve süreçler arasındaki ilişkiler süreçler arası iletişimi temsil eder.
 Dağıtım—Süreçlerin makinelerle nasıl eşleştirildiği ile ilgilenir. Bu görünümdeki öğeler (fiziksel veya sanal) makinelerden ve süreçlerden oluşur. Makineler arasındaki ilişkiler ağ oluşturmayı temsil eder. Bu görünüm aynı zamanda süreçler ve makineler arasındaki ilişkiyi de açıklar.
-Senaryolar: Bir mimarinin tanımı, dört artı bir yani beşinci bir görünüm haline gelen küçük bir dizi kullanım senaryosu veya senaryosu kullanılarak gösterilmektedir. Senaryolar, nesneler ve süreçler arasındaki etkileşim dizilerini tanımlar. Mimari öğeleri tanımlamak ve mimari tasarımı örneklemek ve doğrulamak için kullanılırlar. Ayrıca bir mimari prototipin testleri için bir başlangıç noktası görevi görürler. Bu görünüm, kullanım durumu görünümü olarak da bilinir.  
+Senaryolar: Bir mimarinin tanımı, dört artı bir yani beşinci bir görünüm haline gelen küçük bir dizi kullanım senaryosu veya senaryosu kullanılarak gösterilmektedir. Senaryolar, nesneler ve süreçler arasındaki etkileşim dizilerini tanımlar. Mimari öğeleri tanımlamak ve mimari tasarımı örneklemek ve doğrulamak için kullanılırlar. Ayrıca bir mimari prototipin testleri için bir başlangıç noktası görevi görürler. Bu görünüm, kullanım durumu görünümü olarak da bilinir.         
 
+  
+  
 Kaynaklar:  
 Computationalthinking for the modern problem solver, Chapman & Hall Book, David D. Riley, Kenny A. Hunt  
 Microservices Patterns, Manning, Chris Richardson
