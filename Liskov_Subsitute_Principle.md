@@ -11,6 +11,7 @@ Benzer kurallar, metodun dönüş değeri için de geçerlidir. Alt sınıfın b
 <ins>Yararları</ins>
 
 LSP izlenirse, alt sınıflar sınıflardaki öğeler yani istemciler sınıf hiyerarşisindeki değişikliklerden habersiz kalabilir. Daha rahat kod yazılmasını sağlar. Arayüzde herhangi bir değişiklik olmadığı sürece, mevcut herhangi bir kodu değiştirmek için hiçbir sebep olmamalıdır. Bu nedenle LSP, hem open/close(açık/kapalı) ilkesinin hem de single responsibility(tek sorumluluk) ilkesinin uygulanmasına yardımcı olur.  
+
 SOLID’in ortasında yer alan bu örüntü, bize iyi kalıtım hiyerarşilerini karakterize etmenin bir yolunu verir. Açık-kapalı ilkesine uymayan hiyerarşiler oluşturmamıza neden olacak tuzaklar hakkında farkındalığımızı artırır.
 
 Kaynaklar:  
