@@ -1,4 +1,4 @@
-# Liskov Prensibi
+# Liskov-Yerine Geçme Prensibi
 
 Bu ilke, bir üst sınıfın nesnelerinin, uygulamayı bozmadan alt sınıflarının nesneleri ile değiştirilebileceğini tanımlar. Yani alt sınıfların nesnelerinin, üst sınıfın nesneleri gibi davranmasını gerektirir. Liskov prensibini, B. Meyer tarafından tanımlanan sözleşmeye göre tasarım(design by contract) konseptine oldukça benzeyen birkaç kuralı takip ederek başarabilirsiniz. Sözleşme bir anlaşmadır. Design by contract'ın ana fikri, bir yazılım sisteminin öğelerinin karşılıklı yükümlülükler ve faydalar temelinde birbirleriyle nasıl işbirliği yaptığına dairdir. Liskov prensibi “sözleşmeye göre tasarımla” yakın planda yer alır. Çünkü kendisi de hiyerarişide uyumlu bir anlaşmalar silsilesini vurgular ve ister.
 
