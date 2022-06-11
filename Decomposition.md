@@ -7,7 +7,7 @@ Sorunu, senaryoyu ya da konuyu organize etmeyi sağlar, bunların ana hatları d
 
 Böl ve yönet stratejileri eski zamanlardan, en eski askeri stratejilerden beri kullanılmakta olup hem konuya hakimiyeti artırır hem de detayların ayrıştırılmasını sağlar. Aynı zamanda yazılım açısından algoritmaların daha sağlıklı geliştirilmesine olanak tanır.
 
-Sınıfların, nesnelerin, metotların vb. ayrıştırılması ile daha sağlıklı kod yazılmasına ve kendisine yakın duran Single Responsibility(Tek Sorumluluk) prensibi gibi diğer patternlerle(örüntülerle) uyum içinde çalışılmasına kapı aralamış olur.
+Sınıfların, nesnelerin, metotların vb. ayrıştırılması ile daha derin düşünülmüş, sürdürülebilir kod yazılmasına ve kendisine yakın duran Single Responsibility(Tek Sorumluluk) prensibi gibi diğer patternlerle(örüntülerle) uyum içinde çalışılmasına kapı aralamış olur.
 
 Decomposition Uygulama Teknikleri
 
